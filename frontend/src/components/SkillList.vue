@@ -1,5 +1,4 @@
 <script>
-import Skill from "./Skill.vue";
 
 export default {
   name: 'skill-list',
@@ -18,9 +17,7 @@ export default {
   <div>
     <h3>Skills</h3>
     <ul>
-      <li v-for="skill in skills" :key="skill">
-        <skill :skill="skill"></skill>
-      </li>
+      <li v-for="skill in skills" :key="skill">{{ skill }}</li>
     </ul>
   </div>
 </template>

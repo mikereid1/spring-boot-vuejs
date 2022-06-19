@@ -19,11 +19,9 @@ export default {
 </script>
 
 <template>
-  <div>
   <h1>{{ name }}</h1>
   <p>Software Engineer</p>
   <img @click="confetti" src="@/assets/me.png" alt="profile" width="125">
-  </div>
 </template>
 
 <style scoped>
