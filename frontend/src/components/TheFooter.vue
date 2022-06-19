@@ -1,6 +1,6 @@
 <script>
 export default {
-    name: 'Footer',
+    name: 'the-footer',
     data() {
         return {
             email: 'michaelreid73@gmail.com',
@@ -22,7 +22,5 @@ export default {
 </template>
 
 <style scoped>
-.center {
-    text-align: center;
-}
+
 </style>
