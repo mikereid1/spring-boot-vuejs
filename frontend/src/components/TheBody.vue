@@ -20,5 +20,10 @@ export default {
 </template>
 
 <style scoped>
-
+p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 </style>

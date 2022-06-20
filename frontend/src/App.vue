@@ -24,7 +24,15 @@ export default {
 </template>
 
 <style>
+* {
+  box-sizing: border-box;
+}
+
 html {
   font-family: system-ui;
+}
+body {
+  margin: 0;
+  background-color: #91F9E5;
 }
 </style>
