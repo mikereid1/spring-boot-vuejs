@@ -2,9 +2,6 @@
 
 export default {
   name: 'skill-list',
-  components: {
-    'skill': Skill,
-  },
   data() {
     return {
       skills: ['Java', 'Kotlin', 'Spring Boot', 'JavaScript', 'Vue.js', 'MySQL']
