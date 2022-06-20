@@ -30,4 +30,8 @@ div {
   text-align: left;
   padding: 10px;
 }
+a {
+  color: #116466;
+  text-decoration: none;
+}
 </style>

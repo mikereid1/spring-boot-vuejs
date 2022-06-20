@@ -39,5 +39,6 @@ ul {
 
 a {
   color: #116466;
+  text-decoration: none;
 }
 </style>
