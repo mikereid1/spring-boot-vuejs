@@ -12,23 +12,27 @@ export default {
 </script>
 
 <template>
-  <hr>
-  <ul>
-    <li><a :href="`mailto:${email}`">Email</a></li>
-    <li><a :href="linkedin">LinkedIn</a></li>
-    <li><a :href="github">GitHub</a></li>
-  </ul>
+  <div>
+    <hr>
+    <ul>
+      <li><a :href="`mailto:${email}`">Email</a></li>
+      <li><a :href="linkedin">LinkedIn</a></li>
+      <li><a :href="github">GitHub</a></li>
+    </ul>
+  </div>
 </template>
 
 <style scoped>
 hr {
-  width: 25%;
+  width: 50%;
 }
-ul {
-  list-style: none;
+div {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+ul {
+  list-style: none;
 }
 </style>

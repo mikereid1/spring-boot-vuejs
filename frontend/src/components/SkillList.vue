@@ -28,9 +28,5 @@ div {
 }
 ul {
   list-style: none;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 </style>

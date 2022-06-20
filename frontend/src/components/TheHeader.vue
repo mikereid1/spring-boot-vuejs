@@ -31,6 +31,7 @@ export default {
 <style scoped>
 div {
   background-color: #76F7BF;
+  border-bottom: solid  #499167;
 }
 header {
   display: flex;

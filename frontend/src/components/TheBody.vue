@@ -27,5 +27,6 @@ div {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 10px;
 }
 </style>
