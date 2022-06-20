@@ -18,21 +18,14 @@ export default {
 </script>
 
 <template>
-  <the-header />
-  <the-body />
-  <the-footer />
+  <the-header/>
+  <the-body/>
+  <the-footer/>
 </template>
 
 <style>
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: system-ui;
-}
 body {
   margin: 0;
-  background-color: #91F9E5;
+  background-color: #d1e8e2;
 }
 </style>

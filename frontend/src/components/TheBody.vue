@@ -14,8 +14,8 @@ export default {
     <p>
       I am a software developer with several years of experience working with Java and Kotlin.<br>
       The majority of my time has been spent working on backends using Spring Boot.<br>
-      I enjoy learning new things and I am always improving what I know to expand my toolset.<br>
-      Currently I work as a backend developer for <a href="">Spread Group</a>.
+      I enjoy learning new things and I am always practicing and improving what I know.<br>
+      Currently I work as a backend developer for <a href="https://www.spreadgroup.com/">Spread Group</a>.
     </p>
   </div>
   <skill-list/>
@@ -27,6 +27,7 @@ div {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: left;
   padding: 10px;
 }
 </style>

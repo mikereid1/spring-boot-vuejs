@@ -12,8 +12,8 @@ export default {
 </script>
 
 <template>
+  <hr>
   <div>
-    <hr>
     <ul>
       <li><a :href="`mailto:${email}`">Email</a></li>
       <li><a :href="linkedin">LinkedIn</a></li>
@@ -23,16 +23,17 @@ export default {
 </template>
 
 <style scoped>
-hr {
-  width: 50%;
-}
 div {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  padding: 10px;
 }
+
 ul {
   list-style: none;
+  padding-left: 0;
 }
 </style>

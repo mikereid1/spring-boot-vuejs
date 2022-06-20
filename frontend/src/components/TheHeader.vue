@@ -19,25 +19,26 @@ export default {
 </script>
 
 <template>
-  <div>
-    <header>
-      <img @click="confetti" src="@/assets/me.png" alt="profile" width="125">
-      <h1>{{ name }}</h1>
-      <h4>Software Engineer</h4>
-    </header>
-  </div>
+  <header>
+    <img @click="confetti" src="@/assets/me.png" alt="profile" width="125">
+    <h1>{{ name }}</h1>
+    <h4>Software Engineer</h4>
+  </header>
 </template>
 
 <style scoped>
-div {
-  background-color: #76F7BF;
-  border-bottom: solid  #499167;
-}
 header {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 10px;
+  text-align: center;
+  background-color: #116466;
+  color: #d1e8e2;
+}
+
+img {
+  border: solid #2c3531;
+  border-radius: 50%;
 }
 </style>
