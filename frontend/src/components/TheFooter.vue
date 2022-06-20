@@ -36,4 +36,8 @@ ul {
   list-style: none;
   padding-left: 0;
 }
+
+a {
+  color: #116466;
+}
 </style>
